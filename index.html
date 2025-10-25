@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mix Mix Stir Mix</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #30638E;
+            text-align: center;        
+        }
+      
+        .header-bar {
+            border-bottom: 5px solid #D1495B ;          
+            height: 50px;
+            background: #003d5b;
+            width: 100%;
+            margin: 0 auto 20px auto;
+            justify-content: space-between;
+            position: relative;
+            display: flex;
+            align-items:center;
+   
+        }
+        .header-title {
+            position: absolute;
+            transform: translate(-50%, -50%);
+            background: none; 
+            padding: 0 15px;
+            font-size: 30px;
+            font-weight: bolder;
+            color: #D1495B;
+            left: 120px;
+            top:25px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            letter-spacing: 2px;
+          
+                        
+        }   
+        .upload-container {
+            position:absolute;
+            margin: 50px auto;
+            text-align: right;
+            right: 10px;
+        }
+
+        .upload-input {
+             display: none; 
+        }
+        .middle-bar {
+            border: none;
+            height: 20px;
+            background: #D1495B;
+            width: 100%;
+            margin: 500px auto;
+            
+        }
+        .upload-label {
+            
+            display: inline-block;
+            padding: 12px 30px;
+            background-color: #D1495B;
+            color: #003D5B;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+   
+}
+
+    </style>
+
+   
+</head>
+<body>
+      <div class="header-container">
+        <div class="header-bar">
+        <div class="header-title"> Wave Break </div>
+         <div class="upload-container">
+             <label for="fileUpload" class="upload-label">UPLOAD</label>
+    <input type="file" id="fileUpload" class="upload-input">
+   
+</div>
+    </div>
+
+        <div class="middle-bar"></div>
+    
+    </div>
+ 
+</body>
+</html>
